@@ -2,7 +2,12 @@ import java.util.Scanner;
 
 public class Frequency   
 {  
-     public static void main(String[] args) {  
-     System.out.println("This application will do frequency analysis");
+     public static void main(String[] args) { 
+     // lets get the cipher text from user
+      Scanner scanObj = new Scanner(System.in);
+     System.out.println("Enter a Cipher text and get their frequency !");
+     String cipherText = scanObj.nextLine();
+      String str = cipherText;
+      System.out.println("The entered cipher text :" + str );
      }
 }
