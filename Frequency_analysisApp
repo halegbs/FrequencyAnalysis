@@ -4,9 +4,9 @@ public class Frequency
 {  
      public static void main(String[] args) { 
      // lets get the cipher text from user
-     Scanner scanObj = new Scanner(System.in);
+     Scanner scannerObj = new Scanner(System.in);
     	 System.out.println("Enter a Cipher text and get their frequency !");
-    	 String cipherText = scanObj.nextLine();
+    	 String cipherText = scannerObj.nextLine();
         String str = cipherText; 
         int[] freq = new int[str.length()];  
         int i, j;  
